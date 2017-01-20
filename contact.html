@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/main.css">
+<script src="js/main.js"></script>
 </head>
   <body class="body_background">
 
@@ -23,16 +24,18 @@
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lastname">
 
-       <label for="email">Email Address</label>
+      <label for="email">Email Address</label>
       <input type="text" id="email" name="email">
 
       <label for="phone">Phone Number</label>
+      <p id="phone-error" hidden="true"> Invalid Phone Number</p>
       <input type="text" id="phone" name="phone">
 
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="7" cols="30"></textarea>
 
-      <input type="submit" value="Submit">
+      <button type="button" id="submit" onclick="myFunction()"  value="Submit">Submit</button>
+
     </form>
   </div>
 

@@ -12,6 +12,9 @@ body, html {
   height: 100%;
   width: 100%;
 }
+#h1_home{
+  text-shadow: 0 0 3px #FF0000;
+}
 
 h1{
   color: MidnightBlue;
@@ -100,7 +103,7 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
-input[type=submit] {
+button {
     width: 40%;
     background-color: Sienna;
     color: white;
@@ -109,10 +112,6 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
 }
 
 #contact-form {
